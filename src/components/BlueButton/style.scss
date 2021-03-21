@@ -1,0 +1,15 @@
+.blue-button {
+  background-color: blue;
+  border: 0.1rem solid blue;
+  outline: none;
+  border-radius: 0.6rem;
+  padding: 0.8rem 3rem;
+  margin: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  &:hover {
+    background-color: white;
+    color: blue;
+  }
+}

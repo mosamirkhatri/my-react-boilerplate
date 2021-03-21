@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonJS",
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*"],
+  "typeAcquisition": {
+    "exclude": ["dotenv"]
+  }
+}

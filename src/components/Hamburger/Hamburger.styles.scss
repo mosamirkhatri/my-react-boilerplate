@@ -1,0 +1,17 @@
+.hamburger-wrapper {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 40px;
+  position: absolute;
+  transition: all 0.2 ease-in-out;
+  & > div {
+    background-color: #fff;
+    height: 5px;
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+}
