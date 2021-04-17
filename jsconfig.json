@@ -1,11 +1,23 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonJS",
-    "baseUrl": "src"
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "src",
+    "checkJs": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "allowUmdGlobalAccess": true
   },
   "include": ["src/**/*"],
   "typeAcquisition": {
-    "exclude": ["dotenv"]
+    "exclude": [
+      "dotenv",
+      "harmony-reflect",
+      "dotenv/types",
+      "source-map/source-map",
+      "tsconfig-paths",
+      "invariant",
+      "source-map/source-map"
+    ]
   }
 }
